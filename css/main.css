@@ -1,0 +1,209 @@
+.navbar {
+      margin-bottom: 0;
+      background-color: #000;
+			opacity: 0.7;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #00b359 !important;
+      background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+
+.navbar-brand {
+	color: white !important;
+}
+
+.jumbotron {
+    position: center;
+    background: #000 url("http://www.marchettidesign.net/demo/optimized-bootstrap/code.jpg") center center;
+    background-size: cover;
+		background-color: black;
+    overflow: hidden;
+		padding-top: 20px;
+		height: 650px;
+		text-align: center;
+}
+
+.btn {
+	background-color: #00b359;
+	opacity: 0.8;
+	color: white;
+	margin: 2%;
+}
+
+.title {
+		margin-top: 120px;
+		font-family: Comic Sans MS;
+		color: white !important;
+		text-align: center;
+		font-size: 7vmax !important;
+		padding: 2%;
+}
+
+.info {
+	color: white !important;
+	text-align: center;
+	font-size: 3vmax !important;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.purpose {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+#about {
+	padding-bottom: 50px;
+}
+
+.about {
+  padding: 40px 50px;
+  }
+
+
+
+h4 {
+	color: #00b359 !important;
+	padding-bottom: 20px;
+}
+
+#career {
+	font-family: 'Roboto', sans-serif;
+	background-color: #f2f2f2;
+	margin-bottom: 40px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	text-align: left;
+}
+
+.glyphicon {
+	font-size: 50px !important;
+	color: #00b359;
+}
+
+
+a{
+	color: white !important;
+}
+
+#port {
+	text-align: center;
+}
+
+#info {
+	padding-left: 5%;
+	padding-right: 5%;
+	font-family: 'Roboto', sans-serif;
+}
+
+.img-rounded {
+	size: 20%;
+}
+
+#product {
+	color: #00b359;
+}
+
+#mod-content p {
+	margin: 0 auto;
+	text-align: center !important;
+	font-family: 'Roboto', sans-serif;
+	padding: 25px 50px;
+	font-size: 25px;
+}
+
+.modal-body > .img-responsive {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact {
+	text-align:center;
+	font-family: 'Roboto', sans-serif;
+	background-color: #f2f2f2;
+	color: black;
+	margin-bottom: 40px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.col-sm-3 {
+
+	font-size: 20px;
+}
+
+
+
+.fa {
+	color: #00b359;
+	font-size: 30px;
+	padding: 4px;
+	
+}
+
+/*Creates sliding animation effect*/
+.slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+
+@media only screen and (max-width: 760px) {
+    .link {
+        text-align: center !important;
+			
+    }
+	.img-responsive {
+		width: 100%;
+	}
+	.title {
+		font-size: 8vmax !important;
+	}
+
+
+}
