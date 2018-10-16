@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	
 	//smooth scroll
-  $(".navbar a, #myNavbar, a[href='#about'], a[href='#career'], a[href='#info'], a[href='#contact'], footer a[href='#home']").on('click', function(event) {
+  $(".navbar a, #myNavbar, a[href='#about'], a[href='#career'], a[href='#info'], a[href='#more'], footer a[href='#home']").on('click', function(event) {
    
 		
     if (this.hash !== "") {
